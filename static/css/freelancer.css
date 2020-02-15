@@ -180,8 +180,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #2c3e50;
+    background: #FFFFFF;
 }
 
 section.success a,
@@ -212,10 +212,19 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    width: auto;
+    height: 250px;
+}
+
+#portfolio .portfolio-item .portfolio-img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
+    display: inline-block;
     position: absolute;
     width: 100%;
     height: 100%;
